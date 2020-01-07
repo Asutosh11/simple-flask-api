@@ -79,9 +79,5 @@ def index():
 
 if __name__ == '__main__':
     # Threaded option to enable multiple instances for multiple user access support
-    app.run(debug=True, port=8000, host='0.0.0.0')
+    app.run(threaded=True, port=5000)
     
-    
-×
-Drag and Drop
-The image will be downloaded
